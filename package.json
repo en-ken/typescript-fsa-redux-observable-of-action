@@ -1,0 +1,34 @@
+{
+  "name": "typescript-fsa-redux-observable-rxjs6",
+  "version": "0.0.1",
+  "description": "RxJs v6 compatible typescript-fsa-redux-observable.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo 'No Test'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/en-ken/typescript-fsa-redux-observable-rxjs6.git"
+  },
+  "keywords": [
+    "typescript",
+    "redux",
+    "redux-observable",
+    "rxjs",
+    "typescript-fsa-redux-observable"
+  ],
+  "author": "en-ken",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/en-ken/typescript-fsa-redux-observable-rxjs6/issues"
+  },
+  "homepage": "https://github.com/en-ken/typescript-fsa-redux-observable-rxjs6#readme",
+  "devDependencies": {
+    "rxjs": "^6.3.3",
+    "typescript-fsa": "^3.0.0-beta-2"
+  },
+  "peerDependencies": {
+    "rxjs": "^6.3.3",
+    "typescript-fsa": "^3.0.0-beta-2"
+  }
+}
