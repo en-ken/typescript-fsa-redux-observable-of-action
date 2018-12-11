@@ -4,9 +4,14 @@
   "description": "RxJs v6 compatible definition of ofAction in typescript-fsa-redux-observable.",
   "main": "index.ts",
   "scripts": {
-    "test": "echo 'No Test'"
+    "test": "echo 'No Test'",
+    "build": "tsc"
   },
-  "files": [ "index.ts", "Readme.md", "LICENSE"],
+  "files": [
+    "index.ts",
+    "Readme.md",
+    "LICENSE"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/en-ken/typescript-fsa-redux-observable-rxjs6.git"
@@ -26,6 +31,7 @@
   "homepage": "https://github.com/en-ken/typescript-fsa-redux-observable-rxjs6#readme",
   "devDependencies": {
     "rxjs": "^6.3.3",
+    "typescript": "^3.2.2",
     "typescript-fsa": "^3.0.0-beta-2"
   },
   "peerDependencies": {
