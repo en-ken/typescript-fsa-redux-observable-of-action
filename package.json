@@ -5,16 +5,18 @@
   "main": "index.ts",
   "scripts": {
     "test": "echo 'No Test'",
-    "build": "tsc"
+    "build": "tsc",
+    "prepare": "npm run build"
   },
   "files": [
-    "index.ts",
+    "index.d.ts",
+    "index.js",
     "Readme.md",
     "LICENSE"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/en-ken/typescript-fsa-redux-observable-rxjs6.git"
+    "url": "git+https://github.com/en-ken/typescript-fsa-redux-observable-of-action.git"
   },
   "keywords": [
     "typescript",
@@ -26,9 +28,9 @@
   "author": "en-ken",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/en-ken/typescript-fsa-redux-observable-rxjs6/issues"
+    "url": "https://github.com/en-ken/typescript-fsa-redux-observable-of-action/issues"
   },
-  "homepage": "https://github.com/en-ken/typescript-fsa-redux-observable-rxjs6#readme",
+  "homepage": "https://github.com/en-ken/typescript-fsa-redux-observable-of-action#readme",
   "devDependencies": {
     "rxjs": "^6.3.3",
     "typescript": "^3.2.2",
