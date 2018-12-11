@@ -1,2 +1,3 @@
-# typescript-fsa-redux-observable-rxjs6
-RxJS v6 compatible typescript-fsa-redux-observable
+# typescript-fsa-redux-observable-of-action
+RxJS v6 compatible definition of `ofAction` in [typescript-fsa-redux-observable](https://github.com/m0a/typescript-fsa-redux-observable).
+
