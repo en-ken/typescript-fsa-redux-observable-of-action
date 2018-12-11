@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo 'No Test'"
   },
+  "files": [ "index.ts", "Readme.md", "LICENSE"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/en-ken/typescript-fsa-redux-observable-rxjs6.git"
