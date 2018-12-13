@@ -1,6 +1,6 @@
 {
   "name": "typescript-fsa-redux-observable-of-action",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "RxJs v6 compatible definition of ofAction in typescript-fsa-redux-observable.",
   "main": "dist/index.js",
   "scripts": {
