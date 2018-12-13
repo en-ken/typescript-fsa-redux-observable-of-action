@@ -2,15 +2,14 @@
   "name": "typescript-fsa-redux-observable-of-action",
   "version": "0.0.1",
   "description": "RxJs v6 compatible definition of ofAction in typescript-fsa-redux-observable.",
-  "main": "index.ts",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo 'No Test'",
-    "build": "tsc",
+    "build": "rimraf ./dist & tsc",
     "prepare": "npm run build"
   },
   "files": [
-    "index.d.ts",
-    "index.js",
+    "dist",
     "Readme.md",
     "LICENSE"
   ],
@@ -32,6 +31,7 @@
   },
   "homepage": "https://github.com/en-ken/typescript-fsa-redux-observable-of-action#readme",
   "devDependencies": {
+    "rimraf": "^2.6.2",
     "rxjs": "^6.3.3",
     "typescript": "^3.2.2",
     "typescript-fsa": "^3.0.0-beta-2"
